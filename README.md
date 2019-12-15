@@ -2,7 +2,7 @@
 
 preview search result in quickfix window of vim
 
-## work with ack.vim
+## To work with ack.vim
 
 Configure ack mappings to close preview window before action:
 
@@ -20,7 +20,18 @@ let g:ack_mappings = {
         \ "q": ":cclose<CR>:pclose<CR>"}
 ```
 
+## Commands and key maps
+
+* ViewQuickfix    # preview quickfix line
+* ViewScrollUp    # scroll up preview page
+* ViewScrollDown  # scroll down preview page
+
+Default mappings in quickfix buffer:
+
+* u # scroll up page
+* d # scroll down page
+
 ## acknowledgement
 
-[skywind3000/vim-preview](https://github.com/skywind3000/vim-preview)
+[skywind3000/vim-preview](https://github.com/skywind3000/vim-preview)<br>
 [mileszs/ack.vim](https://github.com/mileszs/ack.vim)
